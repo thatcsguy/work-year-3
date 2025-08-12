@@ -5,13 +5,17 @@ class DistanceGame {
         this.chart = null;
         // Inline sample data as CSV string (easy to copy-paste from spreadsheet)
         this.sampleDataCSV = `Name,X,Y
-Amumu,45,47
-Bard,5,8
-Chogath,25,25
-Diana,2,48
-Ezreal,48,3
-Fizz,15,35
-Gangplank,38,12`;
+Javier,15,10
+Curtis,25,45
+Pierre,19,47
+Luke,17,25
+JayP,10,25
+Tony,5,25
+Bruffey,38,13
+Zach,17,38
+Aadit,25,0
+Armando,25,3
+Brett,43,35`;
         this.initializeEventListeners();
     }
 
